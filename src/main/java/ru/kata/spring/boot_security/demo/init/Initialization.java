@@ -31,8 +31,8 @@ public class Initialization {
         Set<Role> userSet = new HashSet<>();
         adminSet.add(roleAdmin);
         userSet.add(roleUser);
-        User admin = new User("admin", "admin", "Gleb", "Simonov", 25, "gleb@gmail.com", adminSet);
-        User user = new User("user", "user", "Masha", "Shelenkova", 25, "masha@gmail.com", userSet);
+        User admin = new User("admin", "admin", "Gleb", "Simonov", 25, "gleb@mail.com", adminSet);
+        User user = new User("user", "user", "Masha", "Shelenkova", 25, "masha@mail.com", userSet);
 
         userService.create(admin);
         userService.create(user);
